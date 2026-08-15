@@ -5,7 +5,7 @@ def classify_hr(heart_rate):
         return "Normal"
     else:
         return "High"
-heart_rates = [50,60.75,100,120]
+heart_rates = [50,60,75,100,120]
 for heart_rate in heart_rates:
     status = classify_hr(heart_rate)
     print("HR:",heart_rate,"status: ",status)

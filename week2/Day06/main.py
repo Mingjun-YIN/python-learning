@@ -49,9 +49,6 @@ print("Precision:",precision)
 print("Recall:",recall)
 print("F1:",f1)
 
-'''
-plt.plot(time, clean_signal)
-'''
 plt.figure()
 plt.plot(hr_times,filtered_hr_rates,marker="o")
 plt.title("Instantaneous Heart Rate")
